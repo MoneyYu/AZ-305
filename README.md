@@ -1,1 +1,414 @@
-# AZ-305 Content
+---
+image: https://images.credly.com/images/987adb7e-49be-4e24-b67e-55986bd3fe66/azure-solutions-architect-expert-600x600.png
+tags: AZ-305, Reference
+GA: UA-117096964-1
+---
+
+# AZ-305 Reference
+:::success
+Date: 20250826
+Course ID: 85821
+:::
+
+:::info
+Course Survey: [https://aka.ms/az305zhsurvey](https://aka.ms/az305zhsurvey)
+:::
+
+## Course Materials
+[Course AZ-305 English version](https://learn.microsoft.com/en-us/training/courses/az-305t00)
+[Course AZ-305 简体中文版本](https://learn.microsoft.com/zh-cn/training/courses/az-305t00)
+[Course AZ-305 正體中文版本](https://learn.microsoft.com/zh-tw/training/courses/az-305t00)
+
+## Infos
+[ESI Support](https://aka.ms/esisupport)
+
+[Azure Pricing Calculator](https://azure.microsoft.com/en-us/pricing/calculator/)
+
+[Azure Architecture Center](https://docs.microsoft.com/en-us/azure/architecture/)
+
+[Microsoft Azure Well-Architected Framework](https://docs.microsoft.com/en-us/azure/architecture/framework/)
+
+[Microsoft Cloud Adoption Framework for Azure](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/)
+
+[Putting it all together: WAF and CAF for Azure](https://www.microsoft.com/en-us/us-partner-blog/2021/05/04/putting-it-all-together-waf-and-caf-for-azure/)
+
+## Case Studies
+### Instruction
+[AZ-305 Case Studies EN](https://aka.ms/az305labs)
+[AZ-305 Case Studies ZH](https://aka.ms/az305zhlabs)
+
+## Course Info
+![Course](https://mdcontent.yu.money/contents/6c273fc60b6afc675c31d3100.png)
+
+![Certification](https://mdcontent.yu.money/contents/6c273fc60b6afc675c31d3101.png)
+
+## Links
+### M01
+#### Management Groups
+[Azure management groups](https://docs.microsoft.com/en-us/azure/governance/management-groups/overview)
+
+[Best practice: Manage resources with Azure management groups](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/migrate/azure-best-practices/migrate-best-practices-security-management#best-practice-manage-resources-with-azure-management-groups)
+
+#### Subscription
+[Subscription decision guide](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/decision-guides/subscriptions/)
+
+#### Azure Resource Manager
+[Azure Resource Manager](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/overview)
+
+[Define your naming convention](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/resource-naming)
+
+[Naming rules and restrictions for Azure resources](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/resource-name-rules#microsoftcompute)
+
+#### Role based Access Control
+[Best practices for Azure RBAC](https://docs.microsoft.com/en-us/azure/role-based-access-control/best-practices)
+
+[Best practices to secure and manage workloads migrated to Azure](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/migrate/azure-best-practices/migrate-best-practices-security-management)
+
+#### Resource Tagging
+[Resource naming and tagging decision guide](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/decision-guides/resource-tagging/)
+
+[Define your tagging strategy](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/resource-tagging)
+
+#### Azure Policy
+[What is Azure Policy?](https://docs.microsoft.com/en-us/azure/governance/policy/overview)
+
+[Azure Policy built-in policy definitions](https://docs.microsoft.com/en-us/azure/governance/policy/samples/built-in-policies#general)
+
+#### Azure Blueprints
+[What is Azure Blueprints?](https://docs.microsoft.com/en-us/azure/governance/blueprints/overview)
+
+### M02
+#### Compute Overview
+[Choose an Azure compute service](https://docs.microsoft.com/en-us/azure/architecture/guide/technology-choices/compute-decision-tree)
+
+[Security best practices for IaaS workloads in Azure](https://learn.microsoft.com/en-us/azure/security/fundamentals/iaas)
+
+[Azure Region Pair](https://learn.microsoft.com/en-us/azure/reliability/cross-region-replication-azure)
+
+#### VM
+[Sizes for virtual machines in Azure](https://docs.microsoft.com/en-us/azure/virtual-machines/sizes)
+
+[What are virtual machine scale sets?](https://docs.microsoft.com/en-us/azure/virtual-machine-scale-sets/overview)
+
+#### Azure Batch
+[What is Azure Batch?](https://docs.microsoft.com/en-us/azure/batch/batch-technical-overview)
+[Azure Batch best practices](https://docs.microsoft.com/en-us/azure/batch/best-practices)
+
+#### Container
+[Containers vs. virtual machines](https://docs.microsoft.com/en-us/virtualization/windowscontainers/about/containers-vs-vm)
+
+##### Azure Container Instances
+[What is Azure Container Instances?](https://docs.microsoft.com/en-us/azure/container-instances/container-instances-overview)
+
+[Security considerations for Azure Container Instances](https://docs.microsoft.com/en-us/azure/container-instances/container-instances-image-security)
+
+##### Azure Kubernetes Service
+[Azure Kubernetes Service](https://docs.microsoft.com/en-us/azure/aks/intro-kubernetes)
+
+[Cluster operator and developer best practices for AKS](https://docs.microsoft.com/en-us/azure/aks/best-practices)
+
+[Best practices for business continuity and disaster recovery in AKS](https://docs.microsoft.com/en-us/azure/aks/operator-best-practices-multi-region#infrastructure-based-asynchronous-replication)
+
+#### Serverless
+[Choose the right integration and automation services in Azure](https://learn.microsoft.com/en-us/azure/azure-functions/functions-compare-logic-apps-ms-flow-webjobs)
+
+[Azure Logic App vs Azure Functions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-compare-logic-apps-ms-flow-webjobs#compare-azure-functions-and-azure-logic-apps)
+
+##### Azure Functions
+[Introduction to Azure Functions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-overview)
+
+[What are Durable Functions?](https://docs.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-overview?tabs=csharp)
+
+[Best practices for reliable Azure Functions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-best-practices?tabs=csharp)
+
+##### Azure Logic App
+[What is Azure Logic Apps?](https://docs.microsoft.com/en-us/azure/logic-apps/logic-apps-overview)
+
+[Azure Functions triggers and bindings concepts](https://docs.microsoft.com/en-us/azure/azure-functions/functions-triggers-bindings?tabs=csharp)
+
+### M03
+[Introduction to Azure Storage](https://docs.microsoft.com/en-us/azure/storage/common/storage-introduction)
+
+[Types of storage accounts](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-overview#types-of-storage-accounts)
+
+[Premium block blob storage accounts](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-block-blob-premium)
+
+[Overview of Azure page blobs](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-pageblob-overview)
+
+#### Redundancy
+[Azure Storage redundancy](https://docs.microsoft.com/en-us/azure/storage/common/storage-redundancy)
+
+#### Storage Design
+[Access tiers for blob data](https://docs.microsoft.com/en-us/azure/storage/blobs/access-tiers-overview)
+
+[Optimize costs by automatically managing the data lifecycle](https://docs.microsoft.com/en-us/azure/storage/blobs/lifecycle-management-overview)
+
+[Store business-critical blob data with immutable storage](https://docs.microsoft.com/en-us/azure/storage/blobs/immutable-storage-overview)
+
+#### Azure Files
+[Compare Azure Files, Blob Storage, and Azure NetApp Files with NFS](https://docs.microsoft.com/en-us/azure/storage/common/nfs-comparison)
+
+[Planning for an Azure Files deployment](https://docs.microsoft.com/en-us/azure/storage/files/storage-files-planning)
+
+[Azure Files scalability and performance targets](https://docs.microsoft.com/en-us/azure/storage/files/storage-files-scale-targets)
+
+[Azure Files Storage tiers](https://docs.microsoft.com/en-us/azure/storage/files/storage-files-planning#storage-tiers)
+
+#### Azure NetApp Files
+[Solution architectures using Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-solution-architectures)
+
+#### Azure Disk
+[Introduction to Azure managed disks](https://docs.microsoft.com/en-us/azure/virtual-machines/managed-disks-overview)
+[Azure managed disk types](https://docs.microsoft.com/en-us/azure/virtual-machines/disks-types)
+[Overview of managed disk encryption options](https://docs.microsoft.com/en-us/azure/virtual-machines/disk-encryption-overview)
+
+#### Security
+[Grant limited access to Azure Storage resources using shared access signatures (SAS)](https://docs.microsoft.com/en-us/azure/storage/common/storage-sas-overview)
+
+[Security recommendations for Blob storage](https://docs.microsoft.com/en-us/azure/storage/blobs/security-recommendations)
+
+[Use private endpoints for Azure Storage](https://docs.microsoft.com/en-us/azure/storage/common/storage-private-endpoints)
+
+[Customer-managed keys for Azure Storage encryption](https://learn.microsoft.com/en-us/azure/storage/common/customer-managed-keys-overview)
+
+### M04
+[Relational vs. NoSQL data](https://docs.microsoft.com/en-us/dotnet/architecture/cloud-native/relational-vs-nosql-data)
+
+#### Azure SQL
+[Features comparison: Azure SQL Database and Azure SQL Managed Instance](https://docs.microsoft.com/en-us/azure/azure-sql/database/features-comparison)
+[Azure SQL comparison](https://docs.microsoft.com/en-us/azure/azure-sql/azure-sql-iaas-vs-paas-what-is-overview#comparison-table)
+
+##### Performance
+[DTU-based purchasing model overview](https://docs.microsoft.com/en-us/azure/azure-sql/database/service-tiers-dtu)
+[vCore purchasing model - Azure SQL Database](https://docs.microsoft.com/en-us/azure/azure-sql/database/service-tiers-sql-database-vcore)
+[High availability for Azure SQL Database and SQL Managed Instance](https://docs.microsoft.com/en-us/azure/azure-sql/database/high-availability-sla)
+
+#### Cosmos DB
+[Multi-region web application with Cosmos DB replication](https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/multi-region-web-app-cosmos-db-replication#architecture)
+[Choose an API in Azure Cosmos DB](https://docs.microsoft.com/en-us/azure/cosmos-db/choose-api)
+[Non-relational data and NoSQL](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data)
+
+## M05
+[What is Azure Synapse Analytics?](https://docs.microsoft.com/en-us/azure/synapse-analytics/overview-what-is)
+
+[Data integration in Azure Synapse Analytics versus Azure Data Factory](https://docs.microsoft.com/en-us/azure/synapse-analytics/data-integration/concepts-data-factory-differences#available-features-in-adf--azure-synapse-analytics)
+
+### M06
+#### Event and Message
+[Compare Messaging and Events Services](https://docs.microsoft.com/en-us/azure/event-grid/compare-messaging-services)
+
+##### Messages
+[Service Bus queues, topics, and subscriptions](https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-queues-topics-subscriptions)
+
+[Storage queues and Service Bus queues - compared and contrasted](https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-azure-and-service-bus-queues-compared-contrasted)
+
+##### Events
+[Azure Event Hubs](https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-about)
+
+[Use Azure Event Hubs from Apache Kafka applications](https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-for-kafka-ecosystem-overview)
+
+[Azure Event Grid](https://docs.microsoft.com/en-us/azure/event-grid/overview)
+
+[Azure IoT Hub](https://docs.microsoft.com/en-us/azure/iot-hub/iot-concepts-and-iot-hub)
+
+[Process real-time IoT data streams with Azure Stream Analytics](https://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-get-started-with-azure-stream-analytics-to-process-data-from-iot-devices)
+
+#### Cache
+[What is caching?](https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-caching)
+
+[Azure Cache for Redis](https://docs.microsoft.com/en-us/azure/azure-cache-for-redis/cache-overview)
+
+[Caching guidance](https://learn.microsoft.com/en-us/azure/architecture/best-practices/caching)
+
+[Data cache](https://learn.microsoft.com/en-us/azure/architecture/solution-ideas/articles/data-cache-with-redis-cache)
+
+#### API Management
+[Azure API Management](https://docs.microsoft.com/en-us/azure/api-management/api-management-key-concepts)
+
+[Feature-based comparison of the Azure API Management tiers](https://docs.microsoft.com/en-us/azure/api-management/api-management-features)
+
+[API Management policies](https://docs.microsoft.com/en-us/azure/api-management/api-management-policies)
+
+#### IaC
+[What is Infrastructure as Code?](https://docs.microsoft.com/en-us/devops/deliver/what-is-infrastructure-as-code)
+
+[ARM templates](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/overview)
+
+[Azure Bicep](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/overview?tabs=bicep)
+
+[Use infrastructure automation tools with virtual machines in Azure](https://docs.microsoft.com/en-us/azure/virtual-machines/infrastructure-automation)
+
+[Terraform on Azure](https://docs.microsoft.com/en-us/azure/developer/terraform/overview)
+
+[Ansible with Azure](https://docs.microsoft.com/en-us/azure/developer/ansible/overview)
+
+### M07
+[Zero Trust](https://www.microsoft.com/en-us/security/business/zero-trust)
+
+[Azure identity management security overview](https://docs.microsoft.com/en-us/azure/security/fundamentals/identity-management-overview)
+
+#### AAD
+[What is Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-whatis)
+
+[External Identities in Azure Active Directory](https://learn.microsoft.com/en-us/azure/active-directory/external-identities/external-identities-overview#b2b-collaboration)
+
+[Azure AD B2B collaboration overview](https://learn.microsoft.com/en-us/azure/active-directory/external-identities/what-is-b2b)
+
+[Azure Active Directory B2B best practices](https://docs.microsoft.com/en-us/azure/active-directory/external-identities/b2b-fundamentals)
+
+[What is Azure Active Directory B2C?](https://docs.microsoft.com/en-us/azure/active-directory-b2c/overview)
+
+[What is Azure Active Directory Domain Services?](https://learn.microsoft.com/en-us/azure/active-directory-domain-services/overview)
+
+[What is Conditional Access?](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/overview)
+
+[Conditional Access: Conditions](https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/concept-conditional-access-conditions)
+
+[What is Identity Protection?](https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/overview-identity-protection)
+
+[What are Azure AD access reviews?](https://docs.microsoft.com/en-us/azure/active-directory/governance/access-reviews-overview)
+
+#### Managed Idnetity
+[Managed identities for Azure resources](https://docs.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/overview)
+
+[Application and service principal objects in Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/develop/app-objects-and-service-principals)
+
+#### Azure Key Vault
+[Key management in Azure](https://learn.microsoft.com/en-us/azure/security/fundamentals/key-management)
+
+[Azure Key Vault](https://docs.microsoft.com/en-us/azure/key-vault/general/basic-concepts)
+
+### M08
+[Monitoring and diagnostics guidance](https://docs.microsoft.com/en-us/azure/architecture/best-practices/monitoring)
+
+[What are Azure Active Directory reports?](https://docs.microsoft.com/en-us/azure/active-directory/reports-monitoring/overview-reports)
+
+#### Azure Monitor
+[Sources of monitoring data for Azure Monitor](https://learn.microsoft.com/en-us/azure/azure-monitor/data-sources)
+
+[Overview of Log Analytics in Azure Monitor](https://docs.microsoft.com/en-us/azure/azure-monitor/logs/log-analytics-overview)
+
+[Designing your Azure Monitor Logs deployment](https://docs.microsoft.com/en-us/azure/azure-monitor/logs/design-logs-deployment)
+[Overview of Azure Monitor agents](https://docs.microsoft.com/en-us/azure/azure-monitor/agents/agents-overview)
+
+[Log Analytics demo environment](https://portal.azure.com/#blade/Microsoft_Azure_Monitoring_Logs/DemoLogsBlade)
+
+[Azure Monitor Workbooks](https://docs.microsoft.com/en-us/azure/azure-monitor/visualize/workbooks-overview)
+[Application Insights overview](https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview)
+[What is Azure Data Explorer?](https://docs.microsoft.com/en-us/azure/data-explorer/data-explorer-overview)
+
+### M09
+[Plan virtual networks](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-vnet-plan-design-arm)
+[What is Azure ExpressRoute?](https://docs.microsoft.com/en-us/azure/expressroute/expressroute-introduction)
+[What is Azure Virtual WAN?](https://docs.microsoft.com/en-us/azure/virtual-wan/virtual-wan-about)
+[What is Virtual Network NAT?](https://docs.microsoft.com/en-us/azure/virtual-network/nat-gateway/nat-overview)
+
+#### Load Balancing
+[Load-balancing options](https://docs.microsoft.com/en-us/azure/architecture/guide/technology-choices/load-balancing-overview)
+[What is Azure Load Balancer?](https://docs.microsoft.com/en-us/azure/load-balancer/load-balancer-overview)
+[What is Azure Application Gateway?](https://docs.microsoft.com/en-us/azure/application-gateway/overview)
+[What is Azure Front Door?](https://docs.microsoft.com/en-us/azure/frontdoor/front-door-overview)
+[What is Traffic Manager?](https://docs.microsoft.com/en-us/azure/traffic-manager/traffic-manager-overview)
+[What is a content delivery network on Azure?](https://docs.microsoft.com/en-us/azure/cdn/cdn-overview)
+
+#### Protection
+[What is Azure Firewall?](https://docs.microsoft.com/en-us/azure/firewall/overview)
+[What is Azure Web Application Firewall?](https://docs.microsoft.com/en-us/azure/web-application-firewall/overview)
+[DDoS Protection reference architectures](https://docs.microsoft.com/en-us/azure/ddos-protection/ddos-protection-reference-architectures)
+[What is Azure Bastion?](https://docs.microsoft.com/en-us/azure/bastion/bastion-overview)
+
+### M10
+[Business continuity and disaster recovery](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/design-area/management-business-continuity-disaster-recovery)
+[Backup and disaster recovery for Azure applications](https://docs.microsoft.com/en-us/azure/architecture/framework/resiliency/backup-and-recovery)
+
+#### Azure Backup
+[What is the Azure Backup service?](https://docs.microsoft.com/en-us/azure/backup/backup-overview)
+[Recovery Services vaults overview](https://docs.microsoft.com/en-us/azure/backup/backup-azure-recovery-services-vault-overview)
+[Backup cloud and on-premises workloads to cloud](https://docs.microsoft.com/en-us/azure/backup/guidance-best-practices#vault-considerations)
+
+#### Blob and Files
+[Enable and manage soft delete for containers](https://docs.microsoft.com/en-us/azure/storage/blobs/soft-delete-container-enable?tabs=azure-portal)
+[Enable soft delete for blobs](https://docs.microsoft.com/en-us/azure/storage/blobs/soft-delete-blob-enable?tabs=azure-portal)
+[Enable and manage blob versioning](https://docs.microsoft.com/en-us/azure/storage/blobs/versioning-enable?tabs=portal)
+[Point-in-time restore for block blobs](https://docs.microsoft.com/en-us/azure/storage/blobs/point-in-time-restore-overview)
+[Overview of share snapshots for Azure Files](https://docs.microsoft.com/en-us/azure/storage/files/storage-snapshots-files)
+
+#### VM
+[An overview of Azure VM backup](https://docs.microsoft.com/en-us/azure/backup/backup-azure-vms-introduction)
+[Backup cloud and on-premises workloads to cloud](https://docs.microsoft.com/en-us/azure/backup/guidance-best-practices)
+[Support matrix for backup with Microsoft Azure Backup Server or System Center DPM](https://docs.microsoft.com/en-us/azure/backup/backup-support-matrix-mabs-dpm)
+
+#### Azure SQL
+[Full Database Backups (SQL Server)](https://docs.microsoft.com/en-us/sql/relational-databases/backup-restore/full-database-backups-sql-server?view=sql-server-ver15)
+[Differential Backups (SQL Server)](https://docs.microsoft.com/en-us/sql/relational-databases/backup-restore/differential-backups-sql-server?view=sql-server-ver15)
+[Transaction Log Backups (SQL Server)](https://docs.microsoft.com/en-us/sql/relational-databases/backup-restore/transaction-log-backups-sql-server?view=sql-server-ver15)
+[Recover using automated database backups - Azure SQL Database & SQL Managed Instance](https://docs.microsoft.com/en-us/azure/azure-sql/database/recovery-using-backups)
+[Long-term retention - Azure SQL Database and Azure SQL Managed Instance](https://docs.microsoft.com/en-us/azure/azure-sql/database/long-term-retention-overview)
+
+#### Site Recovery
+[About Site Recovery](https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-overview)
+[Azure to Azure disaster recovery architecture](https://docs.microsoft.com/en-us/azure/site-recovery/azure-to-azure-architecture)
+
+### M11
+[Cloud Adoption Framework migration model](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/migrate/migration-considerations/)
+
+[The One Migrate approach to migrating the IT portfolio](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/)
+
+[Azure migration guide overview](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/migrate/azure-migration-guide/?tabs=MigrationTools)
+
+[Total Cost of Ownership (TCO) Calculator](https://azure.microsoft.com/en-us/pricing/tco/calculator/)
+
+[Azure cloud migration best practices checklist](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/migrate/azure-best-practices/)
+
+[Overview of application migration examples for Azure](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/migrate/azure-best-practices/contoso-migration-overview)
+
+[About Azure Migrate](https://docs.microsoft.com/en-us/azure/migrate/migrate-services-overview)
+
+[Planning for an Azure File Sync deployment](https://docs.microsoft.com/en-us/azure/storage/file-sync/file-sync-planning)
+
+[Migrate to Azure file shares](https://docs.microsoft.com/en-us/azure/storage/files/storage-files-migration-overview)
+
+[Storage Migration Service overview](https://docs.microsoft.com/en-us/windows-server/storage/storage-migration-service/overview)
+
+[What is Azure Import/Export service?](https://docs.microsoft.com/en-us/azure/import-export/storage-import-export-service)
+
+[What is Azure Data Box?](https://docs.microsoft.com/en-us/azure/databox/data-box-overview)
+
+[Migrate data offline to Azure File Sync with Azure Data Box](https://docs.microsoft.com/en-us/azure/storage/files/storage-files-migration-server-hybrid-databox)
+
+## Whiteboard
+![Whiteboard](https://mttcontent.yu.money/az305/Whiteboard.png)
+
+SVG:
+[Whiteboard.svg](https://mttcontent.yu.money/az305/Whiteboard.svg)
+
+
+## Exam
+[AZ-305](https://docs.microsoft.com/en-us/learn/certifications/exams/az-305)
+[AZ-305 Study Guide](https://learn.microsoft.com/en-us/certifications/resources/study-guides/az-305)
+[AZ-305 Exam Prep videos](https://learn.microsoft.com/en-us/shows/exam-readiness-zone/preparing-for-az-305-design-identity-governance-and-monitoring-solutions-segment-1-of-4)
+
+[Exam duration and question types](https://learn.microsoft.com/en-us/credentials/support/exam-duration-exam-experience)
+[Unscheduled breaks now available in most exams without requesting in advance](https://techcommunity.microsoft.com/t5/microsoft-learn-blog/unscheduled-breaks-now-available-in-most-exams-without/ba-p/3287005)
+[Accessing Microsoft Learn during your certification exam](https://learn.microsoft.com/en-us/credentials/support/exam-duration-exam-experience#accessing-microsoft-learn-during-your-certification-exam)
+[Microsoft Open Book Video](https://www.microsoft.com/en-us/videoplayer/embed/RW1a0L5)
+[Microsoft Certification Exam Sandbox](https://aka.ms/examdemo)
+[Microsoft Exam FAQ](https://docs.microsoft.com/en-us/learn/certifications/online-exams)
+[Renew your Microsoft Certifications for free. Stay Microsoft Certified!](https://aka.ms/RenewYourCertVideo)
+
+
+
+
+![exam](https://mdcontent.yu.money/contents/31b5b0d6ee886b9be732c5f03.png)
+
+SVG: [exam.svg](https://mttcontent.yu.money/common/exam.svg)
+
+## Contact
+- Money Yu
+    - Mail: [Money.Yu@microsoft.com](mailto:Money.Yu@microsoft.com)
+    - LinkedIn: [@abc12207](https://www.linkedin.com/in/abc12207/)
+
+## Else
+[Azure for GCP Professionals](https://docs.microsoft.com/en-us/azure/architecture/gcp-professional/)
+
+[Azure for AWS Professionals](https://docs.microsoft.com/en-us/azure/architecture/aws-professional/)
